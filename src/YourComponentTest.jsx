@@ -2,11 +2,10 @@
 
 import expect from 'unexpected';
 import jsdom from 'mocha-jsdom';
-import React from 'react'
+import React from 'react';
+import TestUtils from 'react-addons-test-utils';
 
 import YourComponent from './YourComponent';
-
-var TestUtils = React.addons.TestUtils;
 
 describe('Your Component Test Case', () => {
 
