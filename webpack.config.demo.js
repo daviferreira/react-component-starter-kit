@@ -13,7 +13,7 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.jsx$/, loader: 'babel?loose=all', exclude: /node_modules/ }
+      { test: /\.jsx$/, loader: 'babel?stage=0', exclude: /node_modules/ }
     ]
   },
 

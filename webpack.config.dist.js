@@ -5,7 +5,7 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.jsx?$/, loader: 'babel?loose=all', exclude: /node_modules/ }
+      { test: /\.jsx?$/, loader: 'babel?state=0', exclude: /node_modules/ }
     ]
   },
 

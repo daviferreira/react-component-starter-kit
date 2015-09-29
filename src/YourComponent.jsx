@@ -3,6 +3,9 @@
 import React, { Component, PropTypes } from 'react';
 
 export default class YourComponent extends Component {
+  static defaultProps = {}
+
+  static propTypes = {}
 
   constructor(props) {
     super(props);
@@ -19,7 +22,3 @@ export default class YourComponent extends Component {
   }
 
 }
-
-YourComponent.defaultProps = {};
-
-YourComponent.propTypes = {};

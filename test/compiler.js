@@ -9,7 +9,7 @@ require.extensions['.jsx'] = function (module, filename) {
   // Allow the stage to be configured by an environment
   // variable, but use Babel's default stage (2) if
   // no environment variable is specified.
-  var stage = process.env.BABEL_JEST_STAGE || 2;
+  var stage = process.env.BABEL_JEST_STAGE || 0;
 
   // Ignore all files within node_modules
   if (filename.indexOf('node_modules') === -1 && babel.canCompile(filename)) {
