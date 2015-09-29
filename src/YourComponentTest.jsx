@@ -2,7 +2,7 @@
 
 import expect from 'unexpected';
 import jsdom from 'mocha-jsdom';
-import React from 'react/addons'
+import React from 'react'
 
 import YourComponent from './YourComponent';
 

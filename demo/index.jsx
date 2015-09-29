@@ -1,6 +1,7 @@
 'use strict';
 
-import React from 'react/addons';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 import YourComponent from '../src/YourComponent';
 
@@ -14,7 +15,7 @@ class Demo extends React.Component {
 
 }
 
-React.render(
+ReactDOM.render(
   <Demo />,
-  document.body
+  document.getElementById('demo')
 );
