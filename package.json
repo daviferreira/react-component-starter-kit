@@ -25,7 +25,7 @@
   "author": "Davi Ferreira <hi@daviferreira.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react": "0.14.0"
+    "react": "0.14.1"
   },
   "devDependencies": {
     "babel": "5.8.29",
