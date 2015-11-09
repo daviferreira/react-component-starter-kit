@@ -25,7 +25,7 @@
   "author": "Davi Ferreira <hi@daviferreira.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react": "0.14.0"
+    "react": "^0.14.2"
   },
   "devDependencies": {
     "babel": "5.8.29",
@@ -34,8 +34,8 @@
     "classnames": "2.1.5",
     "eslint": "1.6.0",
     "mocha": "2.3.3",
-    "react-addons-test-utils": "0.14.0-rc1",
-    "react-dom": "0.14.0-rc1",
+    "react-addons-test-utils": "0.14.2",
+    "react-dom": "0.14.2",
     "sinon": "1.17.1",
     "trash": "3.1.2",
     "unexpected": "10.0.2",
