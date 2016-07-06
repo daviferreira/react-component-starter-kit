@@ -1,5 +1,3 @@
-'use strict';
-
 import expect from 'unexpected';
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
